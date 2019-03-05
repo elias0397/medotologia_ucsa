@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+int a, b, c, d;
+cout << "Ingresar el primer nro.:" << endl;  cin >> a;
+cout << "Ingresar el segundo nro.:" <<endl;  cin >> b;
+cout << "Ingrese el tercer nro.: " <<endl ; cin >> c;
+d = a + b + c;
+
+switch(d){
+		case 0 ... 59:
+			cout << "Su nota final es: 1";
+			break;
+			
+		case 60 ... 74:
+			cout << "Su nota final es: 2";
+			break;
+			
+
+}
+system("PAUSE");
+return 0 ;
+}
